@@ -5,6 +5,7 @@
 
 times=0
 age=34
+while times<=3:
     a=int(input('请输入猜测的年龄'))
     times += 1
     if a==age:
